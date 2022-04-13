@@ -3,13 +3,3 @@ development:
   theme_id:  ${DEV_THEME_ID}
   store: ${STORE_URL}
   timeout: 30000000000000
-  ignore_files:
-  - assets/theme.css
-  - assets/theme.scss
-  - assets/100%-Organic-Cotton-64x64.svg
-  - layout/Untitled-1.js
-staging:
-  password: ${THEME_PASSWORD}
-  theme_id:  ${STAGING_THEME_ID}
-  store: ${STORE_URL}
-  timeout: 30000000000000
